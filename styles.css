@@ -1,0 +1,132 @@
+/* Globale Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-Stile */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 200px; /* Passe die Größe des Logos hier an */
+    height: auto; /* Das Seitenverhältnis bleibt erhalten */
+}
+
+/* Navigationsleiste */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Hauptinhalt */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer-Stile */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Globale Stile */
+/* Rest des Codes bleibt unverändert */
+
+/* Header-Stile */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-text {
+    flex-grow: 1; /* Überschriften nehmen den verfügbaren Platz ein */
+}
+
+/* Globale Stile */
+/* Rest des Codes bleibt unverändert */
+
+/* Kontaktstil */
+#contact {
+    margin-bottom: 40px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list strong {
+    font-size: 1.2rem;
+}
+
+.contact-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Query für kleine Bildschirme */
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column; /* Elemente in einer Spalte anordnen */
+        align-items: center; /* Elemente zentrieren */
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Abstand unter dem Logo hinzufügen */
+    }
+
+    .header-text {
+        text-align: center; /* Überschriften zentrieren */
+        padding-top: 10px; /* Abstand von oben hinzufügen */
+    }
+    
+    .header-text h1 {
+        font-size: 24px; /* Kleinere Schriftgröße für h1 */
+    }
+
+    .header-text h2 {
+        font-size: 18px; /* Kleinere Schriftgröße für h2 */
+    }
+}
